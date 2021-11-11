@@ -67,4 +67,4 @@ The ```VIDEO``` information is used to build a [composite video output](https://
 
 This amplifier combines ```OSYNC``` signal (created by U23 and producing horizontal and vertical sync pulses) with ```OVIDEO``` (luminance level) into an amplitude modulated signal fed through J7 to the rear panel.
 
-For an in depth digression on how composite video, check out his [tech tip from SENCORE](manuals/TT148-4053.pdf)
+For an in depth digression on how composite video, check out this [tech tip from SENCORE](manuals/TT148-4053.pdf)
