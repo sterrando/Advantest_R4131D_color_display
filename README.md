@@ -43,9 +43,9 @@ So it's safe to say that the problem is located on the CRT sub-assembly and not 
 ### Finding Another Solution
 It was impossible to locate the schematic anywhere on the internet (hey if you have it, drop me a message!), so I started looking for information on the net. Who knows, maybe sobebody had my same problem and found the solution.
 After a shor google search with the right keywords I came over [this blog post](https://www.eevblog.com/forum/testgear/advantest-r4131d-lcd-display/) where **cizeta59** 
->Removed old R4131D tube display and replaced with6-inch color LCD screen taken from Amstrad T6 TV with video input
+>\[...] Removed old R4131D tube display and replaced with6-inch color LCD screen taken from Amstrad T6 TV with video input \[...]
 
 Bingo! I was able to exchange with him and he wes so kind to give me his notes on the modification and the authorization to puglish this guide.
 The modification consists in removing the old CRT assembly, building a diode multiplexer to generate R, G and B signals and then feed the signals to an old Amstrad T6 6" color LCD television 
 
-![AMSTRADT6](thumbnails/Amstrad T6.jpg)
+![AMSTRADT6](thumbnails/Amstrad_T6.jpg)
