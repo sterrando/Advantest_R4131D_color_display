@@ -22,3 +22,9 @@ According to documentation the "D" version sports
 The analyzer looks like the following picture (taken from the internet, I have the same but I did not think about taking a picture before removing the CRT)
 
 ![R4131D](thumbnails/R4131D.jpeg)
+
+## How I Got the Analyzer and What Was Wrong
+On March 2020 I was lucky enough to obtain from my friend **MrTimes** a R4131D with its tracking generator against the payment of a more than reasonable amount of cash. The instruments came fully aligned, however the analyzer presented a "narrow display" issue (the trace was compressed vertically) and so an external CRT monitor connected to the analyzer rear video output came along.
+I started using it in this configuration until July 2021 when all of a sudden the external monitor stopped functioning.
+I was able to verify that the problem was due to the external CRT being dead using a VGA→HDMI converter + external HDMI monitor, but this solution was not practical so I decided it was time to fix the issue once for all.
+
