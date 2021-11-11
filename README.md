@@ -20,4 +20,4 @@ According to documentation the "D" version sports
 * Occupied Bandwidth measurement
 
 The analyzer looks like the following picture (taken from the internet, I have the same but I did not think about taking a picture before removing the CRT)
-(thumbnails/R4131D.jpg)
+[R4131D](thumbnails/R4131D.jpg)
