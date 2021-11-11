@@ -11,6 +11,7 @@ According to [user manual](manuals/pdf_mn_ER4131_OPERATING_MANUAL.pdf)
 > level data resolution by a marker is 0.05 dB, 
 > tube surface dynamic range is 80dB, 
 > and the setting conditions of its major functions are shown on its CRT display.
+
 (typos have been corrected, grammar has been left to its original form).
 
 According to documentation the "D" version sports
