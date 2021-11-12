@@ -102,4 +102,17 @@ I decided to use connectors to place the diodes on the board so that it'll be ea
 
 For the rest of the connections:
 * I picked the Composite video signal on J7 (accessible on the side of the analyzer). If you want to keep the video signal accessible on the rear panel, you'll have to build a male-female jumper to avoid soldering directly on the board (and the risk associated with dispantling/reassembling the board stack)
-* I powered the Amstrad TV from J3, connecting power and GND to limit the risk of noise (unused since there is no more CRT). Here's the pin assignment on J3: ![J3](thumbnails/J3.png)
+* I powered the Amstrad TV from J3, connecting power and GND to limit the risk of noise (unused since there is no more CRT). Here's the pin assignment on J3: 
+![J3](thumbnails/J3.png)
+
+## Pictures
+
+![opening up](thumbnails/1636730952342_tn.jpg)
+
+![Removing the CRT](thumbnails/1636730952317_tn.jpg)
+
+![board-to-board1](thumbnails/1636730952330_tn.jpg)
+
+![board-to-board2](thumbnails/1636730952323_tn.jpg)
+
+![Finished](thumbnails/1636730952336_tn.jpg)
