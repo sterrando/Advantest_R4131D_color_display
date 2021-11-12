@@ -50,7 +50,7 @@ The modification consists **in removing the old CRT assembly, building a diode m
 
 ![AMSTRADT6](thumbnails/Amstrad_T6.jpg)
 
-I was able to find an Amstrad T6 for a whopping 45€ and I jumped on it, however any other [LA76810]()-based monitor would follow the same procedure.
+I was able to find an Amstrad T6 for a whopping 45€ and I jumped on it, however any other [LA76810](manuals/LA76810A.pdf)-based monitor would follow the same procedure.
 
 ### How the Video Signal is Constructed
 The video displayed on the CRT is generated directly by the CPU in form of a [raster signal]'https://en.wikipedia.org/wiki/Raster_scan):
@@ -59,11 +59,16 @@ The video displayed on the CRT is generated directly by the CPU in form of a [ra
 
 ![video to crt](thumbnails/video_sch_1.png)
 
-Basically ```*HSYNC``` signals gives the tempo for the orizontal movement of the brush on each line while ```*VSYNC``` controls he jump from line to line. The ```VIDEO``` signal controls whether or not the brush draws a pixel. As everything is synchrinized by the same timebase, we get a meaningful image
+Basically ```*HSYNC``` signals gives the tempo for the orizontal movement of the brush on each line while ```*VSYNC``` controls the jump from line to line. The ```VIDEO``` signal controls whether or not the brush draws a pixel. As everything is synchrinized by the same timebase, we get a meaningful image on the screen.
 
 The ```VIDEO``` information is used to build a [composite video output](https://en.wikipedia.org/wiki/Composite_video) accessible from the rear panel trough a BNC:
 
 ![video to bnc](thumbnails/video_sch_2.png)
+
+### Constructing the RGB video Signal and Feeding it to the LCD
+Our new monitor will be fed by 4 different signals
+* R, G and B video
+* 
 
 This amplifier combines ```OSYNC``` signal (created by U23 and producing horizontal and vertical sync pulses) with ```OVIDEO``` (luminance level) into an amplitude modulated signal fed through J7 to the rear panel.
 
