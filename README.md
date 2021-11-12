@@ -15,7 +15,7 @@ According to [user manual](manuals/pdf_mn_ER4131_OPERATING_MANUAL.pdf)
 (typos have been corrected, grammar has been left to its original form).
 
 According to documentation the "D" version sports
-* 100kHz display frequency accuracy on frequancies ≤ 2.5 GHz
+* 100kHz display frequency accuracy on frequencies ≤ 2.5 GHz (AFC block, malfunctioning on my unit 😭)
 * POSI/NEG display
 * Occupied Bandwidth measurement
 
