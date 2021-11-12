@@ -94,4 +94,12 @@ Please note that
 
 The following scheme shows how I wired a new diode matrix between the analyzer and TV to implement the table above:
 
-![]
+![connection diagram](thumbnails/connection_diagram.png)
+
+The diode matrix was assembled on a piece of breadboard: the board is connected directly to cathodes of D1-6 using wires.
+Diodes can be any general pourpose Si diodes, I used 1N4148. 
+I decided to use connectors to place the diodes on the board so that it'll be easier to experiment in case I want to modify the color layout.
+
+For the rest of the connections:
+* I picked the Composite video signal on J7 (accessible on the side of the analyzer). If you want to keep the video signal accessible on the rear panel, you'll have to build a male-female jumper to avoid soldering directly on the board (and the risk associated with dispantling/reassembling the board stack)
+* I powered the Amstrad TV from J3, connecting power and GND to limit the risk of noise (unused since there is no more CRT). Here's the pin assignment on J3: ![J3](thumbnails/J3.png)
