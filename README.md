@@ -55,7 +55,7 @@ I was able to find an Amstrad T6 for a whopping 45€ and I jumped on it, howeve
 ### How the Video Signal is Constructed
 The video displayed on the CRT is generated directly by the CPU in form of a [raster signal]'https://en.wikipedia.org/wiki/Raster_scan):
 * Horizontal and Vertical Synchonization pulses ```*HSYNC``` and ```*VSYNC``` inverted by U13 and fed as ```HD``` and ```VD``` on pins 6 and 9 of J8
-* The information (display signal, marker, scale, etc.) is fed to a 6 diodes multiplexer (D1 - D6) to an amplifier (Q1 - Q2) and becomes ```VIDEO``` signal, fed to the video input of CRT (J8 pin 8)
+* The information (display signal, marker, scale, etc.) is fed to a 6 diodes multiplexer (D1 - D6 realizing a logic OR function) to an amplifier (Q1 - Q2) and becomes ```VIDEO``` signal, fed to the video input of CRT (J8 pin 8)
 
 ![video to crt](thumbnails/video_sch_1.png)
 
