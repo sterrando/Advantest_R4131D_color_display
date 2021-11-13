@@ -105,13 +105,22 @@ For the rest of the connections:
 ![J3](thumbnails/J3.png)
 
 ## Pictures
-
+This is the forst attemps to remove the CRT assembly, hoping that there is no screw on the bottom...
 ![opening up](thumbnails/1636730952342_tn.jpg)
 
+Epic Fail: I'll end up removing bottom RF Block and YTO in order to access the screws securing the CRT to the middle plate
 ![Removing the CRT](thumbnails/1636730952317_tn.jpg)
+![removing the CRT 2](thumbnails/bottom_modules.png.png)
 
+Side view of the LCD board not yet secured. You can see the wires connecting the new diode matrix to Logic Board and to LCD PCB:
 ![board-to-board1](thumbnails/1636730952330_tn.jpg)
+Please note the ground connection between the LCD board and the chassis of the instrument. The diode matrix board was not yet mechanically secured.
 
+Another view of the board now secured to the chassis:
 ![board-to-board2](thumbnails/1636730952323_tn.jpg)
+I used adhesive PCB supports to secure everything and ensure there are no shorts:
+![adhesive_supports](thumbnails/PCB_support.png)
 
+This is the result on the screen:
 ![Finished](thumbnails/1636730952336_tn.jpg)
+The LCD was not yet secured to the front panel. For that I had to build metal brackets and used the screws of the front screen bezel as supports.
