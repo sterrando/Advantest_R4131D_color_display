@@ -106,7 +106,7 @@ For the rest of the connections:
 ![J3](thumbnails/J3.png)
 
 ## Pictures
-This is the first attemps to remove the CRT assembly, hoping that there is no screw on the bottom...
+This is the first attempt to remove the CRT assembly, hoping there is no screw on the bottom...
 
 ![opening up](thumbnails/1636730952342_tn.jpg)
 
@@ -128,7 +128,7 @@ Another view of the board now secured to the chassis:
 
 I used adhesive PCB supports to secure everything and ensure there are no shorts:
 
-![adhesive_supports](thumbnails/PCB_support.jpg)
+![adhesive_supports](thumbnails/PCB_Support.jpg)
 
 The LCD TV control button have been secured using a support so that settings are accessible opening the upper cover of the analyzer.
 
