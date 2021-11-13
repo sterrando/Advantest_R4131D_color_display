@@ -101,29 +101,41 @@ I decided to use connectors to place the diodes on the board so that it'll be ea
 
 For the rest of the connections:
 * I picked the Composite video signal on J7 (accessible on the side of the analyzer). If you want to keep the video signal accessible on the rear panel, you'll have to build a male-female jumper to avoid soldering directly on the board (and the risk associated with dispantling/reassembling the board stack)
-* I powered the Amstrad TV from J3, connecting power and GND to limit the risk of noise (unused since there is no more CRT). Here's the pin assignment on J3: 
+* I powered the Amstrad TV from J3, connecting power and GND to limit the risk of noise (unused since there is no more CRT). Here's the pin assignment on J3:
+
 ![J3](thumbnails/J3.png)
 
 ## Pictures
-This is the forst attemps to remove the CRT assembly, hoping that there is no screw on the bottom...
+This is the first attemps to remove the CRT assembly, hoping that there is no screw on the bottom...
+
 ![opening up](thumbnails/1636730952342_tn.jpg)
 
 Epic Fail: I'll end up removing bottom RF Block and YTO in order to access the screws securing the CRT to the middle plate
+
 ![Removing the CRT](thumbnails/1636730952317_tn.jpg)
-![removing the CRT 2](thumbnails/bottom_modules.png.png)
+
+![removing the CRT 2](thumbnails/bottom_modules.png)
 
 Side view of the LCD board not yet secured. You can see the wires connecting the new diode matrix to Logic Board and to LCD PCB:
+
 ![board-to-board1](thumbnails/1636730952330_tn.jpg)
+
 Please note the ground connection between the LCD board and the chassis of the instrument. The diode matrix board was not yet mechanically secured.
 
 Another view of the board now secured to the chassis:
+
 ![board-to-board2](thumbnails/1636730952323_tn.jpg)
+
 I used adhesive PCB supports to secure everything and ensure there are no shorts:
+
 ![adhesive_supports](thumbnails/PCB_support.jpg)
+
 The LCD TV control button have been secured using a support so that settings are accessible opening the upper cover of the analyzer.
 
 This is the result on the screen:
+
 ![Finished](thumbnails/1636730952336_tn.jpg)
+
 The LCD was not yet secured to the front panel. For that I had to build metal brackets and used the screws of the front screen bezel as supports.
 
 The LCD will power up automatically when powering up the instrument. Please note that due to the LCD boot time, the analyzer diagnostic information (showed on the screen at boot) will not be visible.
