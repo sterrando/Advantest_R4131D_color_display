@@ -119,8 +119,16 @@ Please note the ground connection between the LCD board and the chassis of the i
 Another view of the board now secured to the chassis:
 ![board-to-board2](thumbnails/1636730952323_tn.jpg)
 I used adhesive PCB supports to secure everything and ensure there are no shorts:
-![adhesive_supports](thumbnails/PCB_support.png)
+![adhesive_supports](thumbnails/PCB_support.jpg)
+The LCD TV control button have been secured using a support so that settings are accessible opening the upper cover of the analyzer.
 
 This is the result on the screen:
 ![Finished](thumbnails/1636730952336_tn.jpg)
 The LCD was not yet secured to the front panel. For that I had to build metal brackets and used the screws of the front screen bezel as supports.
+
+The LCD will power up automatically when powering up the instrument. Please note that due to the LCD boot time, the analyzer diagnostic information (showed on the screen at boot) will not be visible.
+The "INTENSITY" potentiometer will become uneffective. A future improvement will be to control LCD backlight using this potentiometer.
+
+## TO DO LIST
+- [ ] Convert rear panel composite video out to VGA
+- [ ] Control LCD backlight using INTENSITY potentiometer
