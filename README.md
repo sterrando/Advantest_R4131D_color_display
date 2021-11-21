@@ -144,3 +144,5 @@ The "INTENSITY" potentiometer will become uneffective. A future improvement will
 ## TO DO LIST
 - [ ] Convert rear panel composite video out to VGA
 - [ ] Control LCD backlight using INTENSITY potentiometer
+
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=sterrando.Advantest_R4131D_color_display)
